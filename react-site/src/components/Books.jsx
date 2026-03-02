@@ -53,59 +53,21 @@ const Books = () => {
       <div className="max-w-6xl mx-auto px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center mb-16 md:mb-24">
-          <p className="text-red-500 font-medium tracking-[0.3em] text-xs mb-4 uppercase">Bibliography</p>
+          <p className="text-red-500 font-medium tracking-[0.3em] text-xs mb-4 uppercase">From Eric&apos;s Pen</p>
           <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Published Works
+            Books &amp; Writing
           </h2>
-          <div className="divider-red w-24 mx-auto"></div>
+          <div className="divider-red w-24 mx-auto mb-6"></div>
+          <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
+            Each book is born from Eric&apos;s deep conviction that the greatest stories are already written&mdash;they just need someone willing to dig them up.
+          </p>
         </div>
 
-        {/* Featured Book - Blood of the Mazzaroth */}
-        <div className="mb-20 md:mb-28">
-          <div className="relative overflow-hidden rounded-lg border border-red-900/30 bg-gradient-to-br from-red-950/40 via-[#111] to-[#0e0e0e] p-8 md:p-12 lg:p-16">
-            <div className="absolute top-0 right-0 w-96 h-96 bg-red-900/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-            <div className="grid lg:grid-cols-2 gap-10 md:gap-16 items-center relative z-10">
-              <div className="flex justify-center">
-                <div className="relative">
-                  <img 
-                    src={books[0].image} 
-                    alt={books[0].title}
-                    className="max-h-[420px] md:max-h-[500px] object-contain drop-shadow-2xl animate-float"
-                  />
-                  <div className="absolute -inset-8 bg-red-800/10 rounded-full blur-2xl -z-10"></div>
-                </div>
-              </div>
-              <div>
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-red-900/50 border border-red-800/50 rounded-full mb-6">
-                  <span className="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse"></span>
-                  <span className="text-red-300 text-xs font-semibold tracking-wider">{books[0].badge}</span>
-                </div>
-                <h3 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-3 text-glow-red">
-                  {books[0].title}
-                </h3>
-                <p className="text-red-400/80 text-lg mb-6 italic">{books[0].subtitle}</p>
-                <p className="text-neutral-400 leading-relaxed mb-8 text-base md:text-lg">{books[0].description}</p>
-                <a 
-                  href={books[0].link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-8 py-4 bg-red-800 hover:bg-red-700 text-white text-sm font-bold tracking-wider transition-all duration-300 animate-pulse-glow gap-3"
-                >
-                  ORDER NOW
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Other Books Grid */}
-        <div className="grid md:grid-cols-3 gap-8">
-          {books.slice(1).map((book, index) => (
+        {/* All Books Grid - Equal treatment */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {books.map((book, index) => (
             <div key={index} className="group bg-[#141414] border border-white/5 hover:border-red-900/30 rounded-lg overflow-hidden transition-all duration-500">
-              <div className="p-8 flex justify-center bg-[#111]">
+              <div className="p-8 flex justify-center bg-[#111] relative">
                 <div className="relative">
                   <img 
                     src={book.image} 
@@ -116,20 +78,26 @@ const Books = () => {
                     <img 
                       src={book.award}
                       alt={book.awardText}
-                      className="absolute -bottom-2 -right-2 w-20 h-20 object-contain"
+                      className="absolute -bottom-2 -right-2 w-16 h-16 object-contain"
                     />
                   )}
                 </div>
+                {book.isNew && (
+                  <span className="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 bg-red-900/60 border border-red-800/50 rounded-full">
+                    <span className="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse"></span>
+                    <span className="text-red-300 text-[10px] font-semibold tracking-wider">NEW</span>
+                  </span>
+                )}
               </div>
               <div className="p-6">
                 <span className="inline-block px-3 py-1 text-[10px] font-semibold tracking-wider text-red-400 border border-red-900/30 bg-red-950/30 rounded-full mb-4">
                   {book.badge}
                 </span>
-                <h3 className="font-sans text-xl font-bold text-white mb-2 group-hover:text-red-400 transition-colors">
+                <h3 className={`${book.isNew ? 'font-display' : 'font-sans'} text-xl font-bold text-white mb-2 group-hover:text-red-400 transition-colors`}>
                   {book.title}
                 </h3>
                 <p className="text-neutral-500 text-sm mb-3 italic">{book.subtitle}</p>
-                <p className="text-neutral-400 text-sm leading-relaxed mb-5">{book.description}</p>
+                <p className="text-neutral-400 text-sm leading-relaxed mb-5 line-clamp-3">{book.description}</p>
                 <div className="flex flex-wrap gap-3">
                   <a 
                     href={book.link}
@@ -137,7 +105,7 @@ const Books = () => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-red-400 hover:text-red-300 text-sm font-medium transition-colors gap-2"
                   >
-                    Order Now
+                    Get the Book
                     <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                     </svg>
@@ -163,22 +131,18 @@ const Books = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="font-sans text-2xl md:text-3xl font-bold text-white mb-4">
-                Request a Signed Copy
+                Want a Personal Touch?
               </h3>
               <p className="text-neutral-400 leading-relaxed">
-                Get a personally signed copy of The Final Race. Perfect for gifts or your personal collection.
+                Eric loves connecting with readers. Request a personally signed copy, or reach out to invite him to your church, school, or event.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row sm:items-center justify-start lg:justify-end gap-4 sm:gap-8">
-              <div className="text-left sm:text-right">
-                <p className="text-3xl font-bold text-white">$19.95</p>
-                <p className="text-neutral-500 text-sm">+ shipping</p>
-              </div>
               <a 
                 href="#contact"
                 className="w-full sm:w-auto text-center px-8 py-4 bg-red-800 hover:bg-red-700 text-white text-sm font-bold tracking-wider transition-colors"
               >
-                REQUEST
+                REACH OUT
               </a>
             </div>
           </div>

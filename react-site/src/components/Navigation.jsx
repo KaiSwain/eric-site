@@ -11,11 +11,11 @@ const Navigation = () => {
   }, [])
 
   const navLinks = [
-    { name: 'About', href: '#biography' },
+    { name: 'About Eric', href: '#biography' },
     { name: 'Books', href: '#books' },
     { name: 'Gallery', href: '#gallery' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Events', href: '#events' },
+    { name: 'Speaking', href: '#events' },
     { name: 'Press', href: '#articles' },
     { name: 'Contact', href: '#contact' },
   ]
@@ -37,7 +37,7 @@ const Navigation = () => {
                 ERIC EICHINGER
               </span>
               <span className="hidden sm:block text-[9px] tracking-[0.25em] font-medium text-red-400/80">
-                MASS MEDIA MISSIONARY
+                AUTHOR &bull; MINISTER &bull; STORYTELLER
               </span>
             </div>
           </a>
@@ -53,12 +53,10 @@ const Navigation = () => {
               </a>
             ))}
             <a
-              href="https://www.amazon.com/dp/B0GLB837KH"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ml-2 px-5 py-2 bg-red-800 hover:bg-red-700 text-white text-[11px] font-bold tracking-wider transition-all duration-300 animate-pulse-glow"
+              href="#contact"
+              className="ml-2 px-5 py-2 bg-red-800 hover:bg-red-700 text-white text-[11px] font-bold tracking-wider transition-all duration-300"
             >
-              ORDER THE BOOK
+              CONNECT
             </a>
           </div>
 
@@ -92,12 +90,11 @@ const Navigation = () => {
             ))}
             <div className="pt-4 mt-4 border-t border-white/10">
               <a
-                href="https://www.amazon.com/dp/B0GLB837KH"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#contact"
+                onClick={() => setIsMobileMenuOpen(false)}
                 className="block w-full text-center px-6 py-3 bg-red-800 hover:bg-red-700 text-white text-sm font-bold tracking-wider transition-colors"
               >
-                ORDER BLOOD OF THE MAZZAROTH
+                CONNECT WITH ERIC ✦
               </a>
             </div>
           </div>

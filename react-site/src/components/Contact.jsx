@@ -69,7 +69,7 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="mb-16 md:mb-20">
-          <p className="text-red-500 font-medium tracking-[0.3em] text-xs mb-4 uppercase">Contact</p>
+          <p className="text-red-500 font-medium tracking-[0.3em] text-xs mb-4 uppercase">Let&apos;s Connect</p>
           <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
             Get In Touch
           </h2>
@@ -80,8 +80,8 @@ const Contact = () => {
           {/* Contact Info */}
           <div>
             <p className="text-neutral-400 text-base sm:text-lg leading-relaxed mb-10 sm:mb-12">
-              Interested in booking Eric for a speaking engagement, requesting a signed book, 
-              or media inquiries? I&apos;d love to hear from you.
+              Whether you want to invite Eric to speak at your church or event, chat about a media opportunity, 
+              request a signed book, or just say hello&mdash;he&apos;d love to hear from you.
             </p>
 
             <div className="space-y-8">

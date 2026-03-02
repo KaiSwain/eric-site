@@ -16,8 +16,8 @@ function App() {
       <Navigation />
       <main>
         <Hero />
-        <Books />
         <Biography />
+        <Books />
         <Gallery />
         <Projects />
         <Events />

@@ -4,9 +4,9 @@ const Biography = () => {
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16 md:mb-24">
-          <p className="text-red-500 font-medium tracking-[0.3em] text-xs mb-4 uppercase">About</p>
+          <p className="text-red-500 font-medium tracking-[0.3em] text-xs mb-4 uppercase">Who Is Eric</p>
           <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            The Author
+            The Man Behind the Words
           </h2>
           <div className="divider-red w-24 mx-auto"></div>
         </div>
@@ -34,40 +34,46 @@ const Biography = () => {
           <div className="lg:col-span-3">
             <div className="space-y-6 text-neutral-400 leading-relaxed text-base sm:text-lg">
               <p>
-                <span className="font-sans text-2xl sm:text-3xl font-bold text-white leading-tight">Rev. Eric Eichinger</span> is an ordained 
-                minister, part time Old Testament professor, and accomplished author who writes at the intersection of 
-                ancient mystery and modern suspense.
+                <span className="font-sans text-2xl sm:text-3xl font-bold text-white leading-tight">Rev. Eric Eichinger</span> has spent 
+                his life pursuing one calling: bringing the power of timeless stories to a world that desperately needs them. 
+                As an ordained minister, part-time Old Testament professor, and former collegiate track athlete, Eric brings a 
+                rare combination of pastoral heart, scholarly rigor, and competitive drive to everything he touches.
               </p>
               <p>
-                Drawing on years of theological training, pastoral experience, and rigorous research, Eichinger brings 
-                profound depth, rapier wit, and intellectual precision to the thriller genre. He&apos;s written three previously 
-                published books, and his work is best known for casting theological light into human darkness with 
-                captivating technique.
+                Whether he&apos;s standing behind a pulpit, lecturing on ancient texts, or locked in his study crafting the next 
+                chapter, Eric&apos;s mission stays the same&mdash;casting theological light into human darkness with 
+                captivating technique. His rapier wit and deep faith have made him a sought-after speaker, preacher, and 
+                storyteller across the country.
               </p>
               <p>
-                In <em className="text-red-400">Blood of the Mazzaroth</em>, Eichinger delivers a high-stakes theological thriller that challenges readers 
-                to question power, prophecy, and the hidden forces shaping history. The sacred and the secular dance in 
-                a tightly paced narrative that feels both timeless and urgently contemporary.
+                That mission naturally flows into his writing. From the #1 Amazon bestselling <em className="text-red-400">The Final Race</em> to his latest 
+                theological thriller <em className="text-red-400">Blood of the Mazzaroth</em>, Eric&apos;s books challenge readers 
+                to question power, prophecy, and the hidden forces shaping history&mdash;all while keeping them 
+                turning pages late into the night.
               </p>
               <p>
-                Eichinger lives and works in the greater Los Angeles area with his wife, three children, and one feisty 
+                Eric lives and works in the greater Los Angeles area with his wife, three children, and one feisty 
                 dachshund who could box out Lebron James for a rebound if dinner morsels fall from the table.
               </p>
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 mt-12 md:mt-16 pt-12 md:pt-16 border-t border-white/5">
+            <div className="grid grid-cols-1 sm:grid-cols-4 gap-6 sm:gap-8 mt-12 md:mt-16 pt-12 md:pt-16 border-t border-white/5">
+              <div>
+                <div className="font-sans text-3xl md:text-4xl font-bold text-white">15+</div>
+                <div className="text-neutral-500 text-sm mt-1">Years in Ministry</div>
+              </div>
               <div>
                 <div className="font-sans text-3xl md:text-4xl font-bold text-white">4</div>
                 <div className="text-neutral-500 text-sm mt-1">Books Published</div>
               </div>
               <div>
-                <div className="font-sans text-3xl md:text-4xl font-bold text-white">15+</div>
-                <div className="text-neutral-500 text-sm mt-1">Years Ministry</div>
+                <div className="font-sans text-3xl md:text-4xl font-bold text-red-500">#1</div>
+                <div className="text-neutral-500 text-sm mt-1">Amazon Bestseller</div>
               </div>
               <div>
-                <div className="font-sans text-3xl md:text-4xl font-bold text-red-500">#1</div>
-                <div className="text-neutral-500 text-sm mt-1">Bestseller</div>
+                <div className="font-sans text-3xl md:text-4xl font-bold text-white">50+</div>
+                <div className="text-neutral-500 text-sm mt-1">Speaking Events</div>
               </div>
             </div>
 

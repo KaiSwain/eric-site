@@ -28,11 +28,14 @@ const Gallery = () => {
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16 md:mb-24">
-          <p className="text-red-500 font-medium tracking-[0.3em] text-xs mb-4 uppercase">Gallery</p>
+          <p className="text-red-500 font-medium tracking-[0.3em] text-xs mb-4 uppercase">Life &amp; Adventures</p>
           <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
             Behind the Scenes
           </h2>
-          <div className="divider-red w-24 mx-auto"></div>
+          <div className="divider-red w-24 mx-auto mb-6"></div>
+          <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
+            A glimpse into Eric&apos;s world&mdash;from Hollywood meetings to church pulpits
+          </p>
         </div>
 
         {/* Photo Grid - Flexbox ordered */}

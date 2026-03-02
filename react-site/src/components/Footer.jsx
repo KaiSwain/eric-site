@@ -11,14 +11,14 @@ const Footer = () => {
               Eric Eichinger
             </h3>
             <p className="text-neutral-600 text-sm tracking-wider">
-              Author &middot; Filmmaker &middot; Minister
+              Minister &middot; Author &middot; Filmmaker &middot; Storyteller
             </p>
           </div>
 
           {/* Navigation */}
           <div className="flex flex-wrap gap-x-6 gap-y-3 text-sm">
+            <a href="#biography" className="text-neutral-500 hover:text-red-400 transition-colors">About Eric</a>
             <a href="#books" className="text-neutral-500 hover:text-red-400 transition-colors">Books</a>
-            <a href="#biography" className="text-neutral-500 hover:text-red-400 transition-colors">About</a>
             <a href="#gallery" className="text-neutral-500 hover:text-red-400 transition-colors">Gallery</a>
             <a href="#projects" className="text-neutral-500 hover:text-red-400 transition-colors">Projects</a>
             <a href="#events" className="text-neutral-500 hover:text-red-400 transition-colors">Events</a>

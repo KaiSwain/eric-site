@@ -8,7 +8,7 @@ const Hero = () => {
           <div>
             {/* Label */}
             <p className="text-red-500 font-medium tracking-[0.3em] text-xs mb-6 uppercase animate-fade-in-up">
-              Mass Media Missionary
+              Author &bull; Minister &bull; Filmmaker
             </p>
 
             {/* Name */}
@@ -20,26 +20,29 @@ const Hero = () => {
             <div className="divider-red w-16 mb-8 animate-fade-in-up" style={{animationDelay: '0.25s'}}></div>
 
             {/* Bio */}
-            <p className="text-neutral-400 text-lg sm:text-xl leading-relaxed mb-10 animate-fade-in-up" style={{animationDelay: '0.35s'}}>
-              Bringing history to life through captivating storytelling. Author of the new thriller{' '}
-              <a href="#books" className="font-display text-red-500 hover:text-red-400 font-medium transition-colors">Blood of the Mazzaroth</a>, the #1 Amazon bestseller{' '}
-              <a href="#books" className="text-red-500 hover:text-red-400 font-medium transition-colors">The Final Race</a>, and{' '}
+            <p className="text-neutral-400 text-lg sm:text-xl leading-relaxed mb-4 animate-fade-in-up" style={{animationDelay: '0.35s'}}>
+              Ordained minister, Old Testament professor, and storyteller on a mission to cast light into the darkest corners of history. Eric writes at the intersection of ancient mystery and modern suspense.
+            </p>
+            <p className="text-neutral-500 text-base leading-relaxed mb-10 animate-fade-in-up" style={{animationDelay: '0.42s'}}>
+              His latest thriller{' '}
+              <a href="#books" className="font-display text-red-500 hover:text-red-400 font-medium transition-colors">Blood of the Mazzaroth</a>{' '}is out now, joining the #1 Amazon bestseller{' '}
+              <a href="#books" className="text-red-500 hover:text-red-400 font-medium transition-colors">The Final Race</a>{' '}and{' '}
               <a href="#books" className="text-amber-500 hover:text-amber-400 font-medium transition-colors">Lord of Legends</a>.
             </p>
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 mb-12 animate-fade-in-up" style={{animationDelay: '0.5s'}}>
               <a 
-                href="#books"
+                href="#biography"
                 className="px-8 py-4 bg-neutral-900 hover:bg-neutral-800 text-white text-sm font-bold tracking-wider transition-all duration-300 border border-white/10"
               >
-                EXPLORE BOOKS
+                MY STORY
               </a>
               <a 
-                href="#contact"
+                href="#books"
                 className="px-8 py-4 border border-white/20 hover:border-white/50 text-white text-sm font-medium tracking-wider transition-all duration-300"
               >
-                GET IN TOUCH
+                EXPLORE BOOKS
               </a>
             </div>
 

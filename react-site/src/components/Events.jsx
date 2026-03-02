@@ -159,10 +159,10 @@ const Events = () => {
         {/* CTA */}
         <div className="mt-16 md:mt-20 text-center">
           <h3 className="font-sans text-2xl md:text-3xl font-bold text-white mb-4">
-            Invite Eric to Speak
+            Invite Eric to Your Event
           </h3>
           <p className="text-neutral-500 mb-8 max-w-xl mx-auto">
-            Available for book signings, speaking engagements, church services, and conferences
+            Eric brings energy, humor, and deep conviction to every stage. Available for church services, conferences, book signings, and more.
           </p>
           <a 
             href="#contact"
