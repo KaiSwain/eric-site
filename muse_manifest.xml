@@ -1,0 +1,266 @@
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.ericeichinger.com" resolutions="1x" timestamp="1770852787615">
+  <folder name="css">
+    <file name="site_global.css" crc="4197520969"/>
+    <file name="index.css" crc="466053539" ref="index"/>
+    <file name="after-chariots-of-fire-copy.css" crc="411890376" ref="after-chariots-of-fire-copy"/>
+    <file name="after-chariots-of-fire.css" crc="244873056" ref="after-chariots-of-fire"/>
+    <file name="lord-of-legends.css" crc="4547809" ref="lord-of-legends"/>
+  </folder>
+  <folder name="assets">
+    <file name="124620_3d.png" crc="186389519" seo="true" mt="1643120788000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:after-chariots-of-fire:after-chariots-of-fire-copy:lord-of-legends"/>
+    <file name="museutils.js" crc="3939489907" ref="index:after-chariots-of-fire:after-chariots-of-fire-copy:lord-of-legends"/>
+    <file name="whatinput.js" crc="86476730" ref="index:after-chariots-of-fire:after-chariots-of-fire-copy:lord-of-legends"/>
+    <file name="museconfig.js" crc="128606099" ref="index:after-chariots-of-fire:after-chariots-of-fire-copy:lord-of-legends"/>
+    <file name="jquery.musemenu.js" crc="4139692962" ref="index:after-chariots-of-fire:after-chariots-of-fire-copy"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index:after-chariots-of-fire:after-chariots-of-fire-copy"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index:after-chariots-of-fire:after-chariots-of-fire-copy:lord-of-legends"/>
+    <file name="webpro.js" crc="3856315280" ref="index"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="index"/>
+    <file name="touchswipe.js" crc="3888935200" ref="index"/>
+    <file name="form_check.php" crc="4108222811" ref="index"/>
+    <file name="form_throttle.php" crc="503802655" ref="index"/>
+    <file name="form_process.php" crc="260214869" ref="index"/>
+    <file name="form-u771.php" crc="4045364464" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="312044820" ref="index:after-chariots-of-fire:after-chariots-of-fire-copy"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:after-chariots-of-fire:after-chariots-of-fire-copy:lord-of-legends"/>
+    <file name="require.js" crc="4177726516" ref="index:after-chariots-of-fire:after-chariots-of-fire-copy:lord-of-legends"/>
+  </folder>
+  <folder name="images">
+    <file name="u2831-4.png" crc="4245534084" ref="index"/>
+    <file name="menu-u973-r.png" crc="4065745416" ref="index"/>
+    <file name="menu-u973-a.png" crc="4171980278" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:after-chariots-of-fire"/>
+    <file name="menu-u965-r.png" crc="4065745416" ref="index"/>
+    <file name="menu-u965-a.png" crc="4171980278" ref="index"/>
+    <file name="menu-u991-r.png" crc="4065745416" ref="index"/>
+    <file name="menu-u991-a.png" crc="4171980278" ref="index"/>
+    <file name="menu-u2804-r.png" crc="4065745416" ref="index"/>
+    <file name="menu-u2804-a.png" crc="4171980278" ref="index"/>
+    <file name="menu-u1013-r.png" crc="4065745416" ref="index"/>
+    <file name="menu-u1013-a.png" crc="4171980278" ref="index"/>
+    <file name="eric-profile-image-u2838.png" crc="3798446066" ref="index"/>
+    <file name="facebook button-normal.png" crc="4042202942" ref="index:after-chariots-of-fire-copy">
+      <caption webpage="index" alt=""/>
+      <caption webpage="after-chariots-of-fire-copy" alt=""/>
+    </file>
+    <file name="facebook button-rollover.png" crc="4102635345" ref="index:after-chariots-of-fire-copy">
+      <caption webpage="index" alt=""/>
+      <caption webpage="after-chariots-of-fire-copy" alt=""/>
+    </file>
+    <file name="facebook button-down.png" crc="169558061" ref="index:after-chariots-of-fire-copy">
+      <caption webpage="index" alt=""/>
+      <caption webpage="after-chariots-of-fire-copy" alt=""/>
+    </file>
+    <file name="facebook button-active.png" crc="4292856307" ref="index:after-chariots-of-fire-copy">
+      <caption webpage="index" alt=""/>
+      <caption webpage="after-chariots-of-fire-copy" alt=""/>
+    </file>
+    <file name="youtube button-normal.png" crc="4240796414" ref="index:after-chariots-of-fire-copy">
+      <caption webpage="index" alt=""/>
+      <caption webpage="after-chariots-of-fire-copy" alt=""/>
+    </file>
+    <file name="youtube button-rollover.png" crc="502491160" ref="index:after-chariots-of-fire-copy">
+      <caption webpage="index" alt=""/>
+      <caption webpage="after-chariots-of-fire-copy" alt=""/>
+    </file>
+    <file name="youtube button-down.png" crc="4008702894" ref="index:after-chariots-of-fire-copy">
+      <caption webpage="index" alt=""/>
+      <caption webpage="after-chariots-of-fire-copy" alt=""/>
+    </file>
+    <file name="youtube button-active.png" crc="508641289" ref="index:after-chariots-of-fire-copy">
+      <caption webpage="index" alt=""/>
+      <caption webpage="after-chariots-of-fire-copy" alt=""/>
+    </file>
+    <file name="audible-book-icon.png" crc="369086443" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted image 300x145.png" crc="4074290960" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u959-4.png" crc="263261379" ref="index"/>
+    <file name="eric-paperback-master.png" crc="4070124245" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="124620_3d95x129.png" crc="4102336863" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted image 174x179.png" crc="448210217" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="book signing-buttonu3210-fr.jpg" crc="249132689" ref="index"/>
+    <file name="eric-filmmaker-buttonu3218-fr.jpg" crc="151358571" ref="index"/>
+    <file name="jimcaviesel-buttonu3204-fr.jpg" crc="265182759" ref="index"/>
+    <file name="metaxasimage-buttonu3225-fr.jpg" crc="167231883" ref="index"/>
+    <file name="20180603 d80-dsc_5220-buttonu3997-fr.jpg" crc="4148961485" ref="index"/>
+    <file name="u4295.png" crc="3878405207" ref="index"/>
+    <file name="u4295-r.png" crc="4080720340" ref="index"/>
+    <file name="writingdesk.jpg" crc="458096797" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="line.png" crc="342639449" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="rzd7.png" crc="330670501" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u2940.png" crc="3879982052" ref="index"/>
+    <file name="u2940-r.png" crc="4175480011" ref="index"/>
+    <file name="u2950.png" crc="200800235" ref="index"/>
+    <file name="u2950-r.png" crc="236740021" ref="index"/>
+    <file name="u3495.png" crc="3964921895" ref="index"/>
+    <file name="u3495-r.png" crc="4165097436" ref="index"/>
+    <file name="rzd2.png" crc="225245191" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="eric-profile.jpg" crc="3996068482" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="eandk pic.jpg" crc="4036259740" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="black-wood-background-with-grunge-effect-u4468-fr.jpg" crc="4025318613" ref="index"/>
+    <file name="lord of legends on table.jpg" crc="182046023" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="poloroids-on-desk.jpg" crc="444865300" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="eric-book-master.jpg" crc="4068011162" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="20180603_102759.jpg" crc="4060634516" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="final race award.jpg" crc="49029352" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="eric and eva.jpg" crc="3801680312" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="124620_3d.png" crc="3895511322" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="selahs_seal_finalist_2019.png" crc="3903615628" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted image 576x171.png" crc="302236266" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted image 804x157.jpg" crc="43671991" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="fabry-final-banner.jpg" crc="486843575" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="listen-icon.jpg" crc="4282935510" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="eric-metaxas=banner.jpg" crc="34781427" ref="index"/>
+    <file name="listening-in-logo.jpg" crc="3960473495" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="podcast-icon.png" crc="3958087953" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cof-1-buttonu1146-fr.jpg" crc="4119022227" ref="index"/>
+    <file name="hollywoodreporter-logo.jpg" crc="505994498" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="joseph-fiennes-buttonu1132-fr.jpg" crc="283862696" ref="index"/>
+    <file name="dailyrecord_logo.jpg" crc="4272217859" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chariots-of-fire.jpg" crc="3934296255" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="christianpost-logo.jpg" crc="488258323" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="jagged word bkg-buttonu1152-fr.jpg" crc="522352752" ref="index"/>
+    <file name="eric-filmmaker.jpg" crc="466546096" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted image 940x347.jpg" crc="234238303" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ericliddel-sign.jpg" crc="3888084123" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="rzd9.png" crc="4262193416" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u3422-4.png" crc="263261379" ref="index"/>
+    <file name="u3423-4.png" crc="3795383261" ref="index"/>
+    <file name="eric-profile-image.png" crc="31309118" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arrow-mini-u830.png" crc="4078187362" ref="index"/>
+    <file name="arrow-mini-u830-r.png" crc="4277547438" ref="index"/>
+    <file name="abs-medal-bkg.jpg" crc="472352412" ref="after-chariots-of-fire:after-chariots-of-fire-copy">
+      <caption webpage="after-chariots-of-fire" alt=""/>
+    </file>
+    <file name="menu-u3880-r.png" crc="4065745416" ref="after-chariots-of-fire"/>
+    <file name="menu-u3880-a.png" crc="4171980278" ref="after-chariots-of-fire"/>
+    <file name="menu-u3862-r.png" crc="4065745416" ref="after-chariots-of-fire"/>
+    <file name="menu-u3862-a.png" crc="4171980278" ref="after-chariots-of-fire"/>
+    <file name="menu-u3888-r.png" crc="4065745416" ref="after-chariots-of-fire"/>
+    <file name="menu-u3888-a.png" crc="4171980278" ref="after-chariots-of-fire"/>
+    <file name="menu-u3874-r.png" crc="4065745416" ref="after-chariots-of-fire"/>
+    <file name="menu-u3874-a.png" crc="4171980278" ref="after-chariots-of-fire"/>
+    <file name="menu-u3865-r.png" crc="4065745416" ref="after-chariots-of-fire"/>
+    <file name="menu-u3865-a.png" crc="4171980278" ref="after-chariots-of-fire"/>
+    <file name="chariots-of-fire193x277.jpg" crc="3785969683" seo="true" ref="after-chariots-of-fire">
+      <caption webpage="after-chariots-of-fire" alt=""/>
+      <caption webpage="after-chariots-of-fire" alt=""/>
+    </file>
+    <file name="menu-u3129-r.png" crc="4065745416" ref="after-chariots-of-fire-copy"/>
+    <file name="menu-u3129-a.png" crc="4171980278" ref="after-chariots-of-fire-copy"/>
+    <file name="menu-u3117-r.png" crc="4065745416" ref="after-chariots-of-fire-copy"/>
+    <file name="menu-u3117-a.png" crc="4171980278" ref="after-chariots-of-fire-copy"/>
+    <file name="menu-u3125-r.png" crc="4065745416" ref="after-chariots-of-fire-copy"/>
+    <file name="menu-u3125-a.png" crc="4171980278" ref="after-chariots-of-fire-copy"/>
+    <file name="menu-u3138-r.png" crc="4065745416" ref="after-chariots-of-fire-copy"/>
+    <file name="menu-u3138-a.png" crc="4171980278" ref="after-chariots-of-fire-copy"/>
+    <file name="twitter button-normal.png" crc="6942919" ref="after-chariots-of-fire-copy">
+      <caption webpage="after-chariots-of-fire-copy" alt=""/>
+    </file>
+    <file name="twitter button-rollover.png" crc="3817813807" ref="after-chariots-of-fire-copy">
+      <caption webpage="after-chariots-of-fire-copy" alt=""/>
+    </file>
+    <file name="twitter button-down.png" crc="3909266148" ref="after-chariots-of-fire-copy">
+      <caption webpage="after-chariots-of-fire-copy" alt=""/>
+    </file>
+    <file name="twitter button-active.png" crc="3909266148" ref="after-chariots-of-fire-copy">
+      <caption webpage="after-chariots-of-fire-copy" alt=""/>
+    </file>
+    <file name="124620.jpg" crc="524743323" seo="true" ref="lord-of-legends">
+      <caption webpage="lord-of-legends" alt=""/>
+    </file>
+    <file name="pasted image 962x1024.png" crc="3957830371" seo="true" ref="lord-of-legends">
+      <caption webpage="lord-of-legends" alt=""/>
+    </file>
+    <file name="u4428-96.png" crc="72427165" ref="lord-of-legends"/>
+    <file name="u4434-4.png" crc="477413613" ref="lord-of-legends"/>
+    <file name="pasted image 350x350.png" crc="35441316" seo="true" ref="lord-of-legends">
+      <caption webpage="lord-of-legends" alt=""/>
+    </file>
+    <file name="124620_3d162x219.png" crc="307195477" seo="true" ref="lord-of-legends">
+      <caption webpage="lord-of-legends" alt=""/>
+    </file>
+    <file name="pasted image 2000x2000.png" crc="399767557" seo="true" ref="lord-of-legends">
+      <caption webpage="lord-of-legends" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="357423496" seo="true" mt="1643160810989" redirect="true"/>
+  <file name="after-chariots-of-fire.html" crc="4228328579" seo="true" mt="1643154337972" redirect="true"/>
+  <file name="after-chariots-of-fire-copy.html" crc="448606862" seo="true" mt="1526690428113" redirect="true"/>
+  <file name="lord-of-legends.html" crc="482775117" seo="true" mt="1643159307038" redirect="true"/>
+</manifest>

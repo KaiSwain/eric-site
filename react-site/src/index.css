@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --color-primary: #8B4513;
+  --color-primary-dark: #654321;
+  --color-secondary: #D4AF37;
+  --color-accent: #1E3A5F;
+  --color-warm-white: #FAF8F5;
+  --color-warm-cream: #F5F1E8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #374151;
+  background-color: #8B7355;
+  margin: 0;
+}
+
