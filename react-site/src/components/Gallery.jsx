@@ -4,9 +4,12 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null)
 
   const images = [
+    { src: '/images/Eich%20and%20Kevin%20Sorbo%20(1).jpeg', alt: 'Eric with Kevin Sorbo' },
+    { src: '/images/IMG_7193%20(1).jpeg', alt: 'Eric at event' },
+    { src: '/images/Eich and DQuaid.jpeg', alt: 'Eric at event' },
     { src: '/images/unnamed-6.jpg', alt: 'Eric with Jon Voight' },
     { src: '/images/unnamed.jpg', alt: 'Eric Eichinger' },
-    { src: '/images/unnamed%201.jpg', alt: 'Eric with Reagan film cast' },
+   // { src: '/images/unnamed%201.jpg', alt: 'Eric with Reagan film cast' },
     { src: '/images/unnamed2.jpg', alt: 'Eric Eichinger' },
     { src: '/images/unnamed%203.jpg', alt: 'Eric at event' },
     { src: '/images/unnamed%204.jpg', alt: 'Eric speaking' },
@@ -17,8 +20,8 @@ const Gallery = () => {
     { src: '/images/IMG_4543.jpg', alt: 'Eric and guests at event' },
     { src: '/images/IMG_4549.jpg', alt: 'Hollywood sign photo at event venue' },
     { src: '/images/IMG_7282.jpg', alt: 'Eric with actor at premiere event' },
-    { src: '/images/Jon-Voight.jpg', alt: 'Eric with Jon Voight portrait' },
-    { src: '/images/eandk%20pic.jpg', alt: 'Eric and his wife on the red carpet' },
+   // { src: '/images/Jon-Voight.jpg', alt: 'Eric with Jon Voight portrait' },
+   // { src: '/images/FullSizeR.jpg', alt: 'Eric and his wife on the red carpet' },
   ]
 
   return (

@@ -97,7 +97,7 @@ const Hero = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: "url('/images/cropped-image.png')",
+              backgroundImage: "url('/images/IMG_7246 (1).jpeg')",
             }}
           >
             <div className="absolute inset-0 bg-gradient-to-t from-stone-900/30 to-transparent lg:bg-gradient-to-l lg:from-transparent lg:to-stone-50/10"></div>
