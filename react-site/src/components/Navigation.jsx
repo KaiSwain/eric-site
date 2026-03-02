@@ -5,70 +5,68 @@ const Navigation = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50)
-    }
+    const handleScroll = () => setIsScrolled(window.scrollY > 50)
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
   const navLinks = [
-    { name: 'Books', href: '#books' },
     { name: 'About', href: '#biography' },
+    { name: 'Books', href: '#books' },
     { name: 'Gallery', href: '#gallery' },
     { name: 'Projects', href: '#projects' },
     { name: 'Events', href: '#events' },
+    { name: 'Press', href: '#articles' },
     { name: 'Contact', href: '#contact' },
   ]
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-      isScrolled ? 'bg-white shadow-sm' : 'bg-stone-800 shadow-md'
+      isScrolled ? 'glass border-b border-white/5' : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 sm:h-20">
-          {/* Logo */}
-          <a href="#" className="flex items-center gap-3">
+          <a href="#" className="flex items-center gap-3 group">
             <img 
               src="/images/eric-profile-image.png" 
               alt="Eric Eichinger" 
-                className="h-12 sm:h-16 object-contain"
+              className="h-10 sm:h-12 rounded-full border-2 border-red-900/50 group-hover:border-red-700/80 transition-colors"
             />
             <div className="flex flex-col">
-              <span className={`font-serif text-lg sm:text-xl font-bold tracking-wide transition-colors duration-300 ${
-                isScrolled ? 'text-stone-900' : 'text-white'
-              }`}>
-                Eric Eichinger
+              <span className="font-sans text-sm sm:text-base font-bold tracking-wider text-white">
+                ERIC EICHINGER
               </span>
-              <span className={`hidden sm:block text-[10px] tracking-[0.2em] font-medium transition-colors duration-300 ${
-                isScrolled ? 'text-amber-700' : 'text-amber-400'
-              }`}>
+              <span className="hidden sm:block text-[9px] tracking-[0.25em] font-medium text-red-400/80">
                 MASS MEDIA MISSIONARY
               </span>
             </div>
           </a>
 
-          {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-6 xl:gap-8">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className={`text-xs font-medium tracking-widest transition-colors duration-300 hover:text-amber-500 ${
-                  isScrolled ? 'text-stone-600' : 'text-stone-200'
-                }`}
+                className="text-[11px] font-medium tracking-[0.2em] text-neutral-400 hover:text-white transition-colors duration-300 uppercase"
               >
-                {link.name.toUpperCase()}
+                {link.name}
               </a>
             ))}
+            <a
+              href="https://www.amazon.com/dp/B0GLB837KH"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-2 px-5 py-2 bg-red-800 hover:bg-red-700 text-white text-[11px] font-bold tracking-wider transition-all duration-300 animate-pulse-glow"
+            >
+              ORDER THE BOOK
+            </a>
           </div>
 
-          {/* Mobile Menu Button */}
           <button 
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="lg:hidden p-2"
           >
-            <svg className={`w-6 h-6 transition-colors duration-300 ${isScrolled ? 'text-stone-800' : 'text-white'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {isMobileMenuOpen ? (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
               ) : (
@@ -78,21 +76,30 @@ const Navigation = () => {
           </button>
         </div>
 
-        {/* Mobile Menu */}
         <div className={`lg:hidden overflow-hidden transition-all duration-300 ${
-          isMobileMenuOpen ? 'max-h-96 pb-6' : 'max-h-0'
+          isMobileMenuOpen ? 'max-h-[500px] pb-6' : 'max-h-0'
         }`}>
-          <div className="bg-white rounded-lg shadow-lg p-6 space-y-1">
+          <div className="glass border border-white/5 rounded-lg p-6 space-y-1 mt-2">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="block py-3 text-sm font-medium text-stone-600 hover:text-amber-700 tracking-wide"
+                className="block py-3 text-sm font-medium text-neutral-300 hover:text-red-400 tracking-wide transition-colors"
               >
                 {link.name}
               </a>
             ))}
+            <div className="pt-4 mt-4 border-t border-white/10">
+              <a
+                href="https://www.amazon.com/dp/B0GLB837KH"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center px-6 py-3 bg-red-800 hover:bg-red-700 text-white text-sm font-bold tracking-wider transition-colors"
+              >
+                ORDER BLOOD OF THE MAZZAROTH
+              </a>
+            </div>
           </div>
         </div>
       </div>
